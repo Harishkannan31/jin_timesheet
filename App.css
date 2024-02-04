@@ -1,0 +1,39 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: aqua; */
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  height: 100%;
+  width: 250px;
+  color: white;
+  background-image: linear-gradient(to bottom,#1c115c,#4e2369,#f25c93);
+}
+
+ul li{
+  list-style-type: none;
+  cursor: pointer;
+}
+ul{
+  padding: 15px;
+  
+}
+.bottom-section{
+  display: flex;
+  padding: 15px;
+  margin-top: 220px;
+  font-size: 0.8rem;
+}
+.username{
+  display: flex;
+  flex: 90%;
+}
+.logoutIcon{
+  cursor: pointer;
+  flex: 10%;
+}
